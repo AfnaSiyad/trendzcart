@@ -63,7 +63,6 @@ const Header = () => {
             <Nav.Link as={Link} to={'/products'}>Shop</Nav.Link>
             <Nav.Link as={Link} to={'/about'}>About Us</Nav.Link>
             <Nav.Link  as={Link} to={'/contact'}>Contact Us</Nav.Link>
-            <Nav.Link  as={Link} to={'/addproduct'}>Add product</Nav.Link>
 
 
             <Form  className='d-none d-md-block ms-md-2'>
