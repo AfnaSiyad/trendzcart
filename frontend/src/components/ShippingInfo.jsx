@@ -77,7 +77,7 @@ function ShippingInfo() {
 
                 if (res && res.data.razorpay_order_id) {
                     
-                    const callBackURL = `${process.env.REACT_APP_BACKEND_SERVER}/api/v1/order/paymentCapture/${createOrderRes.data.order._id}`;
+                    const callBackURL = `${process.env.REACT_APP_BACKEND_SERVER}api/v1/order/paymentCapture/${createOrderRes.data.order._id}`;
 
                     const options = {
                         key:"rzp_test_xkYQ1w4YdF9wfN",
