@@ -1,0 +1,12 @@
+.star-icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-right: 2px;
+    font-size: 15px; 
+}
+.empty{
+    color: rgb(144, 144, 144);
+}
+.filled {
+    color: gold; /* Set the color to gold for filled and hovered stars */
+}

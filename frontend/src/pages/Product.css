@@ -1,0 +1,14 @@
+.products-review-list svg {
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+.star-icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.star-filled,
+.star-hover {
+    color: gold; /* Set the color to gold for filled and hovered stars */
+}

@@ -1,0 +1,12 @@
+.message-container{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.message-container svg{
+    font-size: 70px;
+    color: rgb(22, 194, 114);
+}

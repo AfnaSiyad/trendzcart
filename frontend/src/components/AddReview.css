@@ -1,0 +1,13 @@
+.star-container {
+    font-size: 24px; /* Adjust size of stars as needed */
+}
+
+.star-icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.star-filled,
+.star-hover {
+    color: gold; /* Set the color to gold for filled and hovered stars */
+}
