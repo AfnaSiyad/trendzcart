@@ -81,7 +81,7 @@ exports.razorpayPaymentCapture = async(req,res) =>{
 
     await order.save();
 
-    res.redirect(`http://localhost:3000/paymentsuccess?reference=${razorpay_payment_id}`)
+    res.redirect(`${process.env.FRONTEND_APP_URL}/paymentsuccess?reference=${razorpay_payment_id}`)
 
 
   } catch (error) {
