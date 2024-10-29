@@ -4,9 +4,9 @@ const multer = require("multer");
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
       if(file){
-        const tmpPath = path.join('/tmp');
-        // cb(null, './public/productPhotos');  // For localhost
-        cb(null, tmpPath);  // For Render server
+        // const tmpPath = path.join('/tmp');
+        cb(null, './public/productPhotos');  // For localhost
+        // cb(null, tmpPath);  // For Render server
       }
       
     },

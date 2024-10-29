@@ -64,6 +64,13 @@ const prevPage = () => {
   return (
     <Container>
       <h2 className="text-center my-5">Products</h2>
+      {products.length === 0 && (
+        <Row>
+          <Col className='text-center'>
+          <h4 className='text-danger'>Products not found!</h4>
+          </Col>
+        </Row>
+      )}
       <Row>
         {currentProducts && currentProducts.map((product, i) => (
           <Col md={3} className="mt-3" key={i}>
